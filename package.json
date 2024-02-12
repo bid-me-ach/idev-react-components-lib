@@ -5,9 +5,13 @@
   "scripts": {
     "rollup": "rollup -c"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bid-me-ach/idev-react-components-lib"
+  },
+  "keywords": ["Button Components", "Form Components"],
   "author": "B. Acharya",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
