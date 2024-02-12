@@ -1,6 +1,6 @@
 {
   "name": "idev-react-components-lib",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A cool React Components Library to make a devs life easy!!",
   "scripts": {
     "rollup": "rollup -c"

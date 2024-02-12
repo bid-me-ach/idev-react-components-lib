@@ -1,13 +1,15 @@
 import React from 'react'
 
-type ButtonProps = {
-    text: string
+type buttonsProps = {
+    handleClick?: (e: React.MouseEvent) => void,
+    children?: string,
+    className?: string
 }
 
-const Button = ({text}: ButtonProps) => {
+const IdevButtons = (props: buttonsProps) => {
   return (
-    <button>{text}</button>
+    <button className={props.className} onClick={props.handleClick}>{props.children}</button>
   )
 }
 
-export default Button
+export default IdevButtons
