@@ -9,15 +9,14 @@ type inputsProps = {
         className?: string,
         placeholder?: string
         onChange?: (e: any) => void
-    }[]
+    }
 }
 
 const IdevInputs = (props: inputsProps) => {
   return (
     <>
-    {props.inputTypes.map((input) => (
-        <input key={input.name} placeholder={input.placeholder} onChange={input.onChange} type={input.type} value={input.value} name={input.name} id={input.id} className={input.className}/>        
-    ))}
+        <input key={props.inputTypes.name} placeholder={props.inputTypes.placeholder} onChange={props.inputTypes.onChange} type={props.inputTypes.type} value={props.inputTypes.value} name={props.inputTypes.name} id={props.inputTypes.id} className={props.inputTypes.className}/>        
+    
     </>
   )
 }
